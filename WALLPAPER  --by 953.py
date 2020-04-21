@@ -159,6 +159,7 @@ if __name__ == '__main__':
                             break
                         elif choice == 1:
                             print('开始下载PNG')
+                            file_names = get_File_names(path)
                             break
                         else:
                             print('您输入的内容不规范，请重新输入')
